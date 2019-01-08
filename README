@@ -1,0 +1,49 @@
+This is the README file for Allie Robbins' Digital Image Assignment 3
+
+All files were written in C++ on Visual Studio 2017, referencing OpenCV 3.4.1.
+
+List of Files included in program:
+  - program1
+  - program2
+  - program3
+  - program4
+  - program5
+  - program6
+  - makefile
+  - README
+
+To execute the program:
+    Run command "make" to build/compile the programs.
+    Run command "./programName imageName" to run a program after it is built.
+
+      For program6, if the ROI is given from the command line:
+        ./program6 imageName -f pointX pointY width height
+
+    PLEASE NOTE: these programs compile slowly, they may take a little time
+
+
+To clean the object files:
+    Run command "make clean".
+
+Purpose of program:
+    The purpose of this program is perform image enhancements in Spatial Domain.
+
+Outline of Assignment 2 by program:
+  - PROGRAM 1: Write a program that will show the pixel value at a mouse click.
+
+  - PROGRAM 2: Use the mean value to threshold the image such that all the
+      pixels below the mean value are changed to black and all the other pixels
+      are changed to white.
+
+  - PROGRAM 3: Write a program to perform histogram equalization on a specified
+      image.
+
+  - PROGRAM 4: Write a program to perform histogram matching of a given image
+      to another image, or a specified histogram.
+
+  - PROGRAM 5: Write a function to specify a region of interest (ROI) in an image.
+      Run the histogram equalization function on this ROI and put it back into
+      the original image.
+
+  - PROGRAM 6: Subtract an image from its histogram equalized image and display
+      the result.
